@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B348539E18195914001A5C27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B348539D18195914001A5C27 /* Foundation.framework */; };
+		B34853A018195914001A5C27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B348539F18195914001A5C27 /* CoreGraphics.framework */; };
+		B34853A218195914001A5C27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34853A118195914001A5C27 /* UIKit.framework */; };
+		B34853A818195914001A5C27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B34853A618195914001A5C27 /* InfoPlist.strings */; };
+		B34853AA18195914001A5C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B34853A918195914001A5C27 /* main.m */; };
+		B34853AE18195914001A5C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B34853AD18195914001A5C27 /* AppDelegate.m */; };
+		B34853B018195914001A5C27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B34853AF18195914001A5C27 /* Images.xcassets */; };
+		B34853B718195914001A5C27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34853B618195914001A5C27 /* XCTest.framework */; };
+		B34853B818195914001A5C27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B348539D18195914001A5C27 /* Foundation.framework */; };
+		B34853B918195914001A5C27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B34853A118195914001A5C27 /* UIKit.framework */; };
+		B34853C118195914001A5C27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B34853BF18195914001A5C27 /* InfoPlist.strings */; };
+		B34853C318195914001A5C27 /* yagyosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B34853C218195914001A5C27 /* yagyosTests.m */; };
+		B34853CE1819592A001A5C27 /* Conexion.m in Sources */ = {isa = PBXBuildFile; fileRef = B34853CD1819592A001A5C27 /* Conexion.m */; };
+		B34853D618198AED001A5C27 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = B34853D518198AED001A5C27 /* Login.m */; };
+		B34853DA18198C7E001A5C27 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B34853D918198C7E001A5C27 /* Utils.m */; };
+		B34853DD18199BCD001A5C27 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = B34853DC18199BCD001A5C27 /* Home.m */; };
+		B34853E018199E9B001A5C27 /* boton_rojo_pequeno.png in Resources */ = {isa = PBXBuildFile; fileRef = B34853DF18199E9B001A5C27 /* boton_rojo_pequeno.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B34853BA18195914001A5C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B348539218195914001A5C27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B348539918195914001A5C27;
+			remoteInfo = yagyos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B348539A18195914001A5C27 /* yagyos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yagyos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B348539D18195914001A5C27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B348539F18195914001A5C27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B34853A118195914001A5C27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B34853A518195914001A5C27 /* yagyos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yagyos-Info.plist"; sourceTree = "<group>"; };
+		B34853A718195914001A5C27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B34853A918195914001A5C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B34853AB18195914001A5C27 /* yagyos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yagyos-Prefix.pch"; sourceTree = "<group>"; };
+		B34853AC18195914001A5C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B34853AD18195914001A5C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B34853AF18195914001A5C27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B34853B518195914001A5C27 /* yagyosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yagyosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34853B618195914001A5C27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B34853BE18195914001A5C27 /* yagyosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yagyosTests-Info.plist"; sourceTree = "<group>"; };
+		B34853C018195914001A5C27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B34853C218195914001A5C27 /* yagyosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yagyosTests.m; sourceTree = "<group>"; };
+		B34853CC1819592A001A5C27 /* Conexion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conexion.h; sourceTree = "<group>"; };
+		B34853CD1819592A001A5C27 /* Conexion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conexion.m; sourceTree = "<group>"; };
+		B34853D418198AED001A5C27 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Login.h; path = yagyos/Login.h; sourceTree = "<group>"; };
+		B34853D518198AED001A5C27 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Login.m; path = yagyos/Login.m; sourceTree = "<group>"; };
+		B34853D818198C7E001A5C27 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		B34853D918198C7E001A5C27 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		B34853DB18199BCD001A5C27 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		B34853DC18199BCD001A5C27 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		B34853DF18199E9B001A5C27 /* boton_rojo_pequeno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boton_rojo_pequeno.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B348539718195914001A5C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34853A018195914001A5C27 /* CoreGraphics.framework in Frameworks */,
+				B34853A218195914001A5C27 /* UIKit.framework in Frameworks */,
+				B348539E18195914001A5C27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34853B218195914001A5C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34853B718195914001A5C27 /* XCTest.framework in Frameworks */,
+				B34853B918195914001A5C27 /* UIKit.framework in Frameworks */,
+				B34853B818195914001A5C27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B348539118195914001A5C27 = {
+			isa = PBXGroup;
+			children = (
+				B34853D718198AF3001A5C27 /* controller */,
+				B34853CF18195930001A5C27 /* Util */,
+				B34853A318195914001A5C27 /* yagyos */,
+				B34853BC18195914001A5C27 /* yagyosTests */,
+				B348539C18195914001A5C27 /* Frameworks */,
+				B348539B18195914001A5C27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B348539B18195914001A5C27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B348539A18195914001A5C27 /* yagyos.app */,
+				B34853B518195914001A5C27 /* yagyosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B348539C18195914001A5C27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B348539D18195914001A5C27 /* Foundation.framework */,
+				B348539F18195914001A5C27 /* CoreGraphics.framework */,
+				B34853A118195914001A5C27 /* UIKit.framework */,
+				B34853B618195914001A5C27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B34853A318195914001A5C27 /* yagyos */ = {
+			isa = PBXGroup;
+			children = (
+				B34853AC18195914001A5C27 /* AppDelegate.h */,
+				B34853AD18195914001A5C27 /* AppDelegate.m */,
+				B34853AF18195914001A5C27 /* Images.xcassets */,
+				B34853A418195914001A5C27 /* Supporting Files */,
+			);
+			path = yagyos;
+			sourceTree = "<group>";
+		};
+		B34853A418195914001A5C27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B34853DE18199E7D001A5C27 /* images */,
+				B34853A518195914001A5C27 /* yagyos-Info.plist */,
+				B34853A618195914001A5C27 /* InfoPlist.strings */,
+				B34853A918195914001A5C27 /* main.m */,
+				B34853AB18195914001A5C27 /* yagyos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B34853BC18195914001A5C27 /* yagyosTests */ = {
+			isa = PBXGroup;
+			children = (
+				B34853C218195914001A5C27 /* yagyosTests.m */,
+				B34853BD18195914001A5C27 /* Supporting Files */,
+			);
+			path = yagyosTests;
+			sourceTree = "<group>";
+		};
+		B34853BD18195914001A5C27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B34853BE18195914001A5C27 /* yagyosTests-Info.plist */,
+				B34853BF18195914001A5C27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B34853CF18195930001A5C27 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B34853D818198C7E001A5C27 /* Utils.h */,
+				B34853D918198C7E001A5C27 /* Utils.m */,
+				B34853CC1819592A001A5C27 /* Conexion.h */,
+				B34853CD1819592A001A5C27 /* Conexion.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		B34853D718198AF3001A5C27 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B34853D418198AED001A5C27 /* Login.h */,
+				B34853D518198AED001A5C27 /* Login.m */,
+				B34853DB18199BCD001A5C27 /* Home.h */,
+				B34853DC18199BCD001A5C27 /* Home.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		B34853DE18199E7D001A5C27 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B34853DF18199E9B001A5C27 /* boton_rojo_pequeno.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B348539918195914001A5C27 /* yagyos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34853C618195914001A5C27 /* Build configuration list for PBXNativeTarget "yagyos" */;
+			buildPhases = (
+				B348539618195914001A5C27 /* Sources */,
+				B348539718195914001A5C27 /* Frameworks */,
+				B348539818195914001A5C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yagyos;
+			productName = yagyos;
+			productReference = B348539A18195914001A5C27 /* yagyos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B34853B418195914001A5C27 /* yagyosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34853C918195914001A5C27 /* Build configuration list for PBXNativeTarget "yagyosTests" */;
+			buildPhases = (
+				B34853B118195914001A5C27 /* Sources */,
+				B34853B218195914001A5C27 /* Frameworks */,
+				B34853B318195914001A5C27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34853BB18195914001A5C27 /* PBXTargetDependency */,
+			);
+			name = yagyosTests;
+			productName = yagyosTests;
+			productReference = B34853B518195914001A5C27 /* yagyosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B348539218195914001A5C27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Guillermo Vallespir";
+				TargetAttributes = {
+					B34853B418195914001A5C27 = {
+						TestTargetID = B348539918195914001A5C27;
+					};
+				};
+			};
+			buildConfigurationList = B348539518195914001A5C27 /* Build configuration list for PBXProject "yagyos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B348539118195914001A5C27;
+			productRefGroup = B348539B18195914001A5C27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B348539918195914001A5C27 /* yagyos */,
+				B34853B418195914001A5C27 /* yagyosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B348539818195914001A5C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34853E018199E9B001A5C27 /* boton_rojo_pequeno.png in Resources */,
+				B34853A818195914001A5C27 /* InfoPlist.strings in Resources */,
+				B34853B018195914001A5C27 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34853B318195914001A5C27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34853C118195914001A5C27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B348539618195914001A5C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34853AE18195914001A5C27 /* AppDelegate.m in Sources */,
+				B34853CE1819592A001A5C27 /* Conexion.m in Sources */,
+				B34853DD18199BCD001A5C27 /* Home.m in Sources */,
+				B34853AA18195914001A5C27 /* main.m in Sources */,
+				B34853DA18198C7E001A5C27 /* Utils.m in Sources */,
+				B34853D618198AED001A5C27 /* Login.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34853B118195914001A5C27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34853C318195914001A5C27 /* yagyosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B34853BB18195914001A5C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B348539918195914001A5C27 /* yagyos */;
+			targetProxy = B34853BA18195914001A5C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B34853A618195914001A5C27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B34853A718195914001A5C27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B34853BF18195914001A5C27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B34853C018195914001A5C27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B34853C418195914001A5C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B34853C518195914001A5C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B34853C718195914001A5C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yagyos/yagyos-Prefix.pch";
+				INFOPLIST_FILE = "yagyos/yagyos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B34853C818195914001A5C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yagyos/yagyos-Prefix.pch";
+				INFOPLIST_FILE = "yagyos/yagyos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B34853CA18195914001A5C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/yagyos.app/yagyos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yagyos/yagyos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "yagyosTests/yagyosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B34853CB18195914001A5C27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/yagyos.app/yagyos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "yagyos/yagyos-Prefix.pch";
+				INFOPLIST_FILE = "yagyosTests/yagyosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B348539518195914001A5C27 /* Build configuration list for PBXProject "yagyos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34853C418195914001A5C27 /* Debug */,
+				B34853C518195914001A5C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34853C618195914001A5C27 /* Build configuration list for PBXNativeTarget "yagyos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34853C718195914001A5C27 /* Debug */,
+				B34853C818195914001A5C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B34853C918195914001A5C27 /* Build configuration list for PBXNativeTarget "yagyosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34853CA18195914001A5C27 /* Debug */,
+				B34853CB18195914001A5C27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B348539218195914001A5C27 /* Project object */;
+}
